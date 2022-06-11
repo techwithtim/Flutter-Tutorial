@@ -33,11 +33,8 @@ class _BodyState extends State<Body> {
   }
 
   Widget googleLoginButton() {
-    return OutlineButton(
+    return OutlinedButton(
         onPressed: this.click,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(45)),
-        splashColor: Colors.grey,
-        borderSide: BorderSide(color: Colors.grey),
         child: Padding(
             padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
             child: Row(
